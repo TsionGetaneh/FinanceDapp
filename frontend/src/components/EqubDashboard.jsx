@@ -21,7 +21,6 @@ const EqubDashboard = ({ account, contracts, provider }) => {
     duration: "86400", // 1 day in seconds
     maxMembers: "10",
   });
-
   const [fetchStatus, setFetchStatus] = useState("idle"); // idle, loading, error, success
 
   const fetchData = async () => {
